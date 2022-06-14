@@ -1,0 +1,43 @@
+# Programação para Internet
+
+## LP - Termos Comuns
+
+- 404 (erro - página não encontrada)
+- Algoritmo
+- ALT (texto alternativo)
+- API (caixa de login do facebook em outro site)
+- Aplicação
+- Back-end
+- Biblioteca/dll (conjunto de ferramentas)
+- Bootstrap (framework)
+- Breakpoints (pontos-chaves de uma tela / pontos de parada no debug)
+- Bug
+- Código
+- Cache
+- Controle de Versão
+- Cookies
+- Debug (tentar achar um problema / checagem do código)
+- Deploy (pacote ou software para ser aplicado)
+- Design Adaptativo/Responsivo
+- DNS
+- Documentação
+- Domínio
+- DPI (pontos por tela/medida de resolução de tela)
+- Editor de Texto
+- Estrutura de Dados (fila/char...)
+- Favicon (ícone que define o site, aparece nas abas)
+- Fontes
+- Framework (ferramenta para desenvolver)
+- Front-end
+- FTP
+- Fullstack
+- Github/SVN/CVS (controlador de versão)
+- Meta TAGS (usadas por SEO)
+- Método Ágil
+- MVC (modelo de arquitetura)
+- MVP (modelo de arquitetura/mínimo produto viável usado para teste)
+- MySQL
+- Servidor
+- Solução
+- SSL (camada de segurança)
+- WYSIWYG (o que vc vê é o que vc recebe)
