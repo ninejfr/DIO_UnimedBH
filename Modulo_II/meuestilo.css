@@ -1,6 +1,8 @@
 /*Meu CSS*/
 body {
 background: white;
+max-width: 900px;
+margin: auto;
 }
 
 #title, .subtitle, .post_title {
@@ -8,8 +10,19 @@ background: white;
 	font-family: tahoma;
 }
 
+#title {
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+a:link {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
 .post_title {
-	font-size: 16px;
+	font-size: 15px;
 	font-style: italic;
 	margin: 0;
 	margin-bottom: 15px;	
@@ -23,6 +36,7 @@ background: white;
 	border-radius: 10px;
 	font-family: arial;
 	font-size: 13px;
+	text-align: justify;
 }
 
 .post_content {
@@ -35,5 +49,15 @@ background: white;
 }
 
 .photo {
-	border-radius: 50px;
+	border-radius: 70px;
+	border: 3px solid black;
+}
+
+ul {
+	list-style-type: square;
+	font-family: tahoma;
+	font-size: 10px;
+	color: gray;
+	padding: 0px;
+	padding-left: 20px;
 }
