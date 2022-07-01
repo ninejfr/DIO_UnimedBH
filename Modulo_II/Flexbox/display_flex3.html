@@ -9,18 +9,44 @@
     <style>
         .flex-container {
             display: flex;
-            height: 150px;
-
+            border: 2px solid black;
+            max-width: 300px;
         }
 
         .item {
             font-size: 24px;
             height: 50%;
             text-align: center;
+            min-width: 100px;
+            line-height: 50px;
         }
 
         .nowrap {
             flex-wrap: nowrap;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+        }
+
+        .wrap-reverse {
+            flex-wrap: wrap-reverse;
+        }
+
+        .blue {
+            background-color: blueviolet
+        }
+
+        .green {
+            background-color: greenyellow;
+        }
+
+        .coral {
+            background-color: coral;
+        }
+
+        .creme {
+            background-color: rgb(228, 194, 121);
         }
 
     </style>
@@ -29,5 +55,30 @@
 </head>
 <body>
     <h1>no wrap</h1>
+
+    <div class="flex-container nowrap">
+        <div class="item blue">1</div>
+        <div class="item green">2</div>
+        <div class="item coral">3</div>
+        <div class="item creme">4</div>
+    </div>
+
+    <h1>wrap</h1>
+
+    <div class="flex-container wrap">
+        <div class="item blue">1</div>
+        <div class="item green">2</div>
+        <div class="item coral">3</div>
+        <div class="item creme">4</div>
+    </div>
+
+    <h1>wrap reverso</h1>
+
+    <div class="flex-container wrap-reverse">
+        <div class="item blue">1</div>
+        <div class="item green">2</div>
+        <div class="item coral">3</div>
+        <div class="item creme">4</div>
+    </div>
 </body>
 </html>
