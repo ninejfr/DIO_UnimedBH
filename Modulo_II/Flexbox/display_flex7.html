@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Align-content</title>
+<style>
+    .container{
+        height: 400px;
+        max-width: 300px;
+        border: 1px solid crimson;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item{
+        background-color: orange;
+        padding: 0 5px;
+        margin: 5px;
+        flex: 1;
+        text-align: center;
+        color: whitesmoke;
+
+    }
+    
+    .stretch{
+        align-content: stretch;
+}
+    .center{
+        align-content: center;
+    }
+
+    .start{
+        align-content: flex-start;
+    }
+
+    .end{
+        align-content: flex-end;
+    }
+
+    .between{
+        align-content: space-between;
+    }
+
+    .around{
+        align-content: space-around;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+</style>
+</head>
+<body>
+   <h1>Row</h1>
+    <p>Stretch</p>
+    <div class="container stretch">
+    <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+    <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+    <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+    <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh nec dapibus faucibus, metus est faucibus mi</div>
+    <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan</div>
+    <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh nec dapibus faucibus</div>
+    <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+ </div>
+
+ <p>Center</p>
+ <div class="container center">
+ <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+ <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+ <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+ <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh </div>
+ <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan</div>
+ <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh nec dapibus faucibus</div>
+ <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+</div>
+
+<p>Flex-start</p>
+<div class="container start">
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh </div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh nec dapibus faucibus</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+</div>
+
+<p>Flex-end</p>
+<div class="container end">
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh </div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh nec dapibus faucibus</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+</div>
+
+<p>Space-between</p>
+<div class="container between">
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh </div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh nec dapibus faucibus</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+</div>
+
+<p>Space-around</p>
+<div class="container around">
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh </div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh nec dapibus faucibus</div>
+<div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+</div>
+
+
+
+</body>
+</html>
